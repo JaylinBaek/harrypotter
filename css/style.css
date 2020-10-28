@@ -1,0 +1,62 @@
+.back {
+	width: 100%;
+	height: 100%;
+	background: #1d161e;
+	position: relative;
+}
+.candle {
+	width: 100%; position: relative; 
+}
+
+.grid{
+	width: 33.3%;height: 20%; float: left;
+	display: grid; grid-column: 33.3% 33.3% 33.3%;
+}
+
+.soundgrid{
+	width: 33.3%;height: 20%; float: left;
+	display: grid; grid-column: 33.3% 33.3% 33.3%;
+}
+
+.footgrid{
+	width: 20%;height: 7%; float: left;
+	display: grid; grid-column: 20% 20% 20% 20% 20%;
+}
+
+.setgrid{
+	width: 33.3%;height: 40%; float: left;
+	display: grid; grid-column: 33.3% 33.3% 33.3%;
+}
+
+.play {
+	color: #d8c860; text-align: center;
+	font-family: 'Amatic SC', cursive; font-size: 14pt;
+	position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+}
+
+.qui {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 3%;
+  height: 3%;
+  transition: all 2s ease-out;
+}
+
+h1 {color: #d8c860; text-align: center;font-family: 'Amatic SC', cursive; font-size: 14pt;}
+h2 {color: #d8c860; text-align: center;font-family: 'Amatic SC', cursive; font-size: 30pt;}
+footer {width: 100%;height: 6%;position: absolute;clear: left; left: 0; bottom: 0px;}
+
+@-webkit-keyframes can {
+	0% {margin-top: 0px;}
+	50%{margin-top: 10px}
+	100%{margin-top: 0px;}
+}
+
+@-webkit-keyframes dle {
+	0% {margin-top: 10px;}
+	50%{margin-top: 0px}
+	100%{margin-top: 10px;}
+}
+
